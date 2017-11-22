@@ -4,8 +4,8 @@ Prueba de aplicación Android utilizando Ionic 2. Se comentarán los pasos a seg
 # Instalar android studio
 Instalar android estudio desde la página oficial.
 
-# Crear un proyecto android
-Al crear un proyecto android se instalarán muchas de las herramientas que posteriormente necesitaremos para nuestro proyecto. Así es por ejemplo SDK de Android, así como herramientas para generar AVD (Android Virtual Devices), emuladores.
+# Crear un proyecto Android con Android Studio
+Al crear un proyecto android con Android Studio se instalarán muchas de las herramientas que posteriormente necesitaremos para nuestro proyecto. Así es por ejemplo SDK de Android, así como herramientas para generar AVD (Android Virtual Devices), emuladores.
 
 # Crear una máquina virtual
 Desde el visual studio "Tools > Android > AVD"
