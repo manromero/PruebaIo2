@@ -52,6 +52,9 @@ APPLICATION_PATH\platforms\android\build\outputs\apk\android-debug.apk
 
 Este apk puedes probarlo en el movil aunque no sea una versión de producción ya que tiene unas keys automáticas para debug.
 
+# Debug APP en ADV con Chrome 
+Para poder debugear una app sobre una ADV. Abrir el navegador acceder a "chrome://inspect/" y seleccionar el dispositivo que se está emulando.
+
 # Generar APK Producción
 Se puede generar una apk de producción con el comando:
 
@@ -60,11 +63,10 @@ Se puede generar una apk de producción con el comando:
 Para poder instalarlo en un dispositivo, así como subirlo a Google Play tienes que añadirle las key.
 
 # Ejecutar Proyecto Ejemplo
-Se puede ejecutar el proyecto de prueba "ManPru" sobre un dispositivo Android (AVD o Físico). Para ello:
+Se puede ejecutar el proyecto de prueba "ManPru" sobre un dispositivo Android (AVD o Físico). No se puede ejecutar sobre navegador con "ionic serve" porque utiliza un plugin de sqlite no disponible para el navegador. Para ejecutarlo en android:
 
 - Descargar el proyecto. Acceder a él.
-- Instalar dependencias. Primero con "npm install" y luego con "ionic cordova prepare".
-- Comprobar que se ha añadido la plataforma android, si no añadirla.
+- Instalar dependencias. Primero con "npm install" y luego con "ionic cordova prepare android".
 - Ejecutar el proyecto en un emulador.
 
 Este proyecto sigue el tutorial de sqlite de https://github.com/ion-book/demo107
