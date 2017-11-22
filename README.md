@@ -41,7 +41,7 @@ Desde la aplicación ejecutar el comando:
 # Encender AVD
 Desde Android Studio se puede encender el emulador creado anteriormente desde "Tools > Android > AVD".
 
-# Ejecutar APP en Android
+# Ejecutar APP en AVD
 ionic cordova emulate android
 
 Si todo ha ido bien la aplicación se debe ejecutar en el emulador.
