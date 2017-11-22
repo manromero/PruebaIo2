@@ -50,7 +50,7 @@ Se ha generado también un apk para debug en
   
 APPLICATION_PATH\platforms\android\build\outputs\apk\android-debug.apk
 
-Este apk puedes probarlo en el movil aunque no sea una versión de producción.
+Este apk puedes probarlo en el movil aunque no sea una versión de producción ya que tiene unas keys automáticas para debug.
 
 # Generar APK Producción
 Se puede generar una apk de producción con el comando:
