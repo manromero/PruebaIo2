@@ -18,7 +18,9 @@ JAVA_HOME: Debe aputnar al jdk instalado (mínimo 1.8).
 ANDROID_HOME: Directorio donde está apuntando el sdk de Android. Con android studio es posible que se haya instalado en "C:\Users\USERNAME\AppData\Local\Android\Sdk"
 
 En el path apuntar a las carpetas "tools" y "platform-tools" que se encuentran dentro de la carpeta del sdk:
+
   %ANDROID_HOME%\tools
+  
   %ANDROID_HOME%\platform-tools
 
 # Instalar Ionic
