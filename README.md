@@ -62,6 +62,10 @@ Se puede generar una apk de producción con el comando:
   
 Para poder instalarlo en un dispositivo, así como subirlo a Google Play tienes que añadirle las key.
 
+Google Play te permite añadirle las keys de forma automática, así como android studio.
+
+Para añadirlas de forma manual con java: https://ionicframework.com/docs/intro/deploying/
+
 # Ejecutar Proyecto Ejemplo
 Se puede ejecutar el proyecto de prueba "ManPru" sobre un dispositivo Android (AVD o Físico). No se puede ejecutar sobre navegador con "ionic serve" porque utiliza un plugin de sqlite no disponible para el navegador. Para ejecutarlo en android:
 
