@@ -36,7 +36,7 @@ Para comprobar que se ha instalado correctamente entrar en ella cd APPLICATION_N
 # Añadir plataforma android
 Desde la aplicación ejecutar el comando:
 
-  ionic cordova platform android
+  ionic cordova platform add android
   
 # Encender AVD
 Desde Android Studio se puede encender el emulador creado anteriormente desde "Tools > Android > AVD".
