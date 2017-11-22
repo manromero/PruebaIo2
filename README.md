@@ -13,7 +13,8 @@ Desde el visual studio "Tools > Android > AVD"
 Crear una máquina virtual instalando para ello la api 26 (Actualmente a 22/11/2017, da error al ejecutar Ionic 2 en versiones superiores).
 
 # Asegurar Variables de entorno
-JAVA_HOME: Debe aputnar al jdk instalado (mínimo 1.8)
+JAVA_HOME: Debe aputnar al jdk instalado (mínimo 1.8).
+
 ANDROID_HOME: Directorio donde está apuntando el sdk de Android. Con android studio es posible que se haya instalado en "C:\Users\USERNAME\AppData\Local\Android\Sdk"
 
 En el path apuntar a las carpetas "tools" y "platform-tools" que se encuentran dentro de la carpeta del sdk:
