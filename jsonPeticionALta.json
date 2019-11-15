@@ -1,0 +1,51 @@
+{
+	"idProcedure": 21,
+	"name": "10 CONVOCATORIAPRUEBA IFG",
+	"description": "Prueba",
+	"codeFormat": "GALATEA-66-${YEAR}-${IDDOSSIER}",
+	"storagePath": "GALATEA-66",
+	"paperPresentation": false,
+	"onlinePresentation": true,
+	"permanent": true,
+	"allowAuth": true,
+	"uniqueDossier": false,
+	"allowDossierErrors": false,
+	"isFedap": false,
+	"callPhases": [
+		{
+			"idPhase": 1,
+			"dateIni": "2019-11-06T23:00:00Z",
+			"dateEnd": "2019-11-10T23:00:00Z",
+			"order": 1
+		},
+		{
+			"idPhase": 2,
+			"dateIni": "2019-11-06T23:00:00Z",
+			"dateEnd": "2019-11-10T23:00:00Z",
+			"order": 2
+		},
+		{
+			"idPhase": 3,
+			"dateIni": "2019-11-06T23:00:00Z",
+			"dateEnd": "2019-11-10T23:00:00Z",
+			"order": 3
+		},
+		{
+			"idPhase": 4,
+			"dateIni": "2019-11-06T23:00:00Z",
+			"dateEnd": "2019-11-10T23:00:00Z",
+			"order": 4
+		}
+	],
+	"forms": [
+		{
+			"name": "Solicitud para formación null 10 CONVOCATORIAPRUEBA IFG",
+			"description": "Solicitud de inscripcion en la formación 10 CONVOCATORIAPRUEBA IFG(null)",
+			"templateUrl": "https://drive.google.com/uc?id=1UNwtj9tcZfbwy74RKJN4AEcMIe4EC_Dy&export=download",
+			"templateSignParams": "mode=explicit\nheadless=true\nfilters=nonexpired:\nsignaturePositionOnPageLowerLeftX=500\nsignaturePositionOnPageLowerLeftY=500\nsignaturePositionOnPageUpperRightX=600\nsignaturePositionOnPageUpperRightY=550\nsignaturePositionOnPageUpperRightX=200\nsignaturePage=-1",
+			"jsonDefinition": "https://drive.google.com/uc?authuser=0&id=1gva6drZANYie--W1ReG09pID_-_AUx3M&export=download",
+			"type": "Solicitud",
+			"phases": []
+		}
+	]
+}
