@@ -1,0 +1,843 @@
+{
+  "form": {
+	"title": "Solicitud de acceso a formaci\u00F3 Prueba T\u00F3tulo",
+	"description": "Formulario de acceso a convocatoria de formaci\u00F3n Prueba Título. \\n Prueba Descripci\u00F3n",
+	"pages": [
+	  {
+		"label": "Datos del promotor de formaci&oacute;n",
+		"sections": [
+		  [
+			{
+			  "scope": "general",
+			  "rows": [
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "8",
+					  "size-md": "8",
+					  "size-lg": "8",
+					  "label": "Nota: Los datos personales del usuario correspondiente al apartado 2 \"DATOS PERSONALES\" ser&aacute;n cargado desde el sistema de GALATEA si el usuario est&aacute; registrado en el sistema, prevaleciendo los datos importados desde GALATEA sobre cualquier dato insertado por el usuario."
+					},
+					{
+					  "size-xs": "12",
+					  "size-sm": "3",
+					  "size-md": "3",
+					  "size-lg": "3"
+					},
+					{
+					  "size-xs": "12",
+					  "size-sm": "1",
+					  "size-md": "1",
+					  "size-lg": "1",
+					  "label": "Versi&oacute;n:",
+					  "layout": "default",
+					  "element": {
+						"tag": "select",
+						"id": "version",
+						"values": [
+						  {
+							"value": "2",
+							"label": "2"
+						  }
+						]
+					  }
+					}
+				  ]
+				}
+			  ]
+			}
+		  ],
+		  [
+			{
+			  "title": "1 DATOS DEL PROMOTOR",
+			  "scope": "general",
+			  "rows": [
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "1.1 Datos identificativos"
+					}
+				  ]
+				}
+				,
+				{"columns":[{"label":"Preferencia 1","layout":"default","element":{"tag":"select","id":"preferencia1","values":[{"value":"AAE19-C3","label":"AAE19-C3"}]},"size-xs":"12","size-sm":"12","size-md":"12","size-lg":"12"}]},{"columns":[{"label":"Preferencia 2","layout":"default","element":{"tag":"select","id":"preferencia2","values":[{"value":"AAE19-C3","label":"AAE19-C3"}]},"size-xs":"12","size-sm":"12","size-md":"12","size-lg":"12"}]}
+				,  
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Cupo de Reserva",
+					  "layout": "default",
+					  "element": {
+						"tag": "radio",
+						"type": "vertical",
+						"id": "cupoReserva",
+						"values": [
+						  {
+							"value": "1",
+							"label": "Si"
+						  },
+						  {
+							"value": "0",
+							"label": "No"
+						  }
+						]
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Discapacidad",
+					  "layout": "default",
+					  "element": {
+						"tag": "radio",
+						"type": "vertical",
+						"id": "poseeDiscapacidad",
+						"values": [
+						  {
+							"value": "1",
+							"label": "Si"
+						  },
+						  {
+							"value": "0",
+							"label": "No"
+						  }
+						]
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Autorizaci&oacute;n Expresa de consulta",
+					  "layout": "default",
+					  "element": {
+						"tag": "radio",
+						"type": "vertical",
+						"id": "autorizadoConsulta",
+						"values": [
+						  {
+							"value": "1",
+							"label": "Si"
+						  },
+						  {
+							"value": "0",
+							"label": "No"
+						  }
+						]
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Excedencia arts. 89.3, 89.4 y 89.5 EBEP",
+					  "layout": "default",
+					  "element": {
+						"tag": "radio",
+						"type": "vertical",
+						"id": "excedenciaEBEP",
+						"values": [
+						  {
+							"value": "1",
+							"label": "Si"
+						  },
+						  {
+							"value": "0",
+							"label": "No"
+						  }
+						]
+					  }
+					}
+				  ]
+				},
+			{"columns":[{"label":"","layout":"default","element":{"tag":"input","type":"text","id":"campoPersonalizado1"},"size-xs":"12","size-sm":"12","size-md":"12","size-lg":"12"}]},{"columns":[{"label":"","layout":"default","element":{"tag":"input","type":"text","id":"campoPersonalizado1"},"size-xs":"12","size-sm":"12","size-md":"12","size-lg":"12"}]},{"columns":[{"label":"","layout":"default","element":{"tag":"input","type":"text","id":"campoPersonalizado1"},"size-xs":"12","size-sm":"12","size-md":"12","size-lg":"12"}]},{"columns":[{"label":"","layout":"default","element":{"tag":"input","type":"text","id":"campoPersonalizado1"},"size-xs":"12","size-sm":"12","size-md":"12","size-lg":"12"}]}				
+
+			  ]
+			}
+		  ]
+		]
+	  },
+	  {
+		"label": "Datos personales",
+		"sections": [
+		  [
+			{
+			  "title": "2 DATOS PERSONALES",
+			  "scope": "general",
+			  "rows": [
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "DNI/NIF:",
+					  "layout": "default",
+					  "element": {
+						"tag": "input",
+						"type": "text",
+						"id": "identifSolicitante",
+						"calculated": {
+						  "method": "raw",
+						  "expresion": "import groovy.json.JsonOutput;import groovy.json.JsonSlurper;def jsonSlurper = new JsonSlurper();def object = jsonSlurper.parseText(jsonData);def url = 'http://10.239.0.161:8090/galatea/homologada-ws/oficinavirtual/persona/'+param;def get = new URL(url).openConnection();def status = get.getResponseCode();if (status.equals(200)) {def response = get.getInputStream().getText();def respondeNode = jsonSlurper.parseText(response);object.identifSolicitante = respondeNode.identifSolicitante;object.nombreSolicitante = respondeNode.nombreSolicitante;object.apellido1Solicitante = respondeNode.apellido1Solicitante;object.apellido2Solicitante = respondeNode.apellido2Solicitante;object.sexoSolicitante = respondeNode.sexoSolicitante;object.emailSolicitante = respondeNode.emailSolicitante;object.telefonoSolicitante = respondeNode.telefonoSolicitante;}\njsonData = JsonOutput.toJson(object);"
+						}
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Nombre Solicitante:",
+					  "layout": "default",
+					  "element": {
+						"tag": "input",
+						"type": "text",
+						"id": "nombreSolicitante"
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Apellido 1 Solicitante:",
+					  "layout": "default",
+					  "element": {
+						"tag": "input",
+						"type": "text",
+						"id": "apellido1Solicitante"
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Apellido 2 Solicitante:",
+					  "layout": "default",
+					  "element": {
+						"tag": "input",
+						"type": "text",
+						"id": "apellido2Solicitante"
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Sexo:",
+					  "layout": "default",
+					  "element": {
+						"tag": "select",
+						"id": "sexoSolicitante",
+						"values": [
+						  {
+							"value": "",
+							"label": ""
+						  },
+						  {
+							"value": "hombre",
+							"label": "Hombre"
+						  },
+						  {
+							"value": "mujer",
+							"label": "Mujer"
+						  }
+						]
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Correo Electr&oacute;nico Corporativo:",
+					  "layout": "default",
+					  "element": {
+						"tag": "input",
+						"type": "email",
+						"id": "emailSolicitante"
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Tel&eacute;fono de contacto:",
+					  "layout": "default",
+					  "element": {
+						"tag": "input",
+						"type": "text",
+						"id": "telefonoSolicitante"
+					  }
+					}
+				  ]
+				}
+			  ]
+			}
+		  ]
+		]
+	  },
+	  {
+		"label": "Datos administrativos",
+		"sections": [
+		  [
+			{
+			  "title": "2 DATOS ADMINISTRATIVOS",
+			  "scope": "general",
+			  "rows": [
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Colectivo:",
+					  "layout": "default",
+					  "element": {
+						"tag": "select",
+						"id": "tipoColectivo",
+						"values": [
+						  {
+							"label": "Funcionario",
+							"value": "funcionario"
+						  },
+						  {
+							"label": "Laboral",
+							"value": "laboral"
+						  },
+						  {
+							"label": "Interino",
+							"value": "interino"
+						  },
+						  {
+							"label": "Otro",
+							"value": "otros"
+						  }
+						]
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Categoria:",
+					  "layout": "default",
+					  "element": {
+						"tag": "select",
+						"id": "categoria",
+						"values": [
+						  {
+							"label": "Codigo",
+							"value": "Etiqueta"
+						  },
+						  {
+							"label": "LT",
+							"value": "LT [en SIRhUS: T]"
+						  },
+						  {
+							"label": "I",
+							"value": "I [en SIRhUS: D, G, I, W]"
+						  },
+						  {
+							"label": "F",
+							"value": "F [en SIRhUS: S]"
+						  },
+						  {
+							"label": "OT",
+							"value": "OT [en SIRhUS: A, O, R, 6, 9]"
+						  },
+						  {
+							"label": "F",
+							"value": "F [en SIRhUS: F]"
+						  },
+						  {
+							"label": "L",
+							"value": "L [en SIRhUS: L-H]"
+						  },
+						  {
+							"label": "F",
+							"value": "E [en SIRhUS: E]"
+						  }
+						]
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Grupo:",
+					  "layout": "default",
+					  "element": {
+						"tag": "select",
+						"id": "grupo",
+						"values": [
+						  {
+							"label": "Codigo",
+							"value": "Etiqueta"
+						  },
+						  {
+							"label": "A1 [en SIRhUS: A, XA]",
+							"value": "A1"
+						  },
+						  {
+							"label": "A2 [en SIRhUS: B, XB]",
+							"value": "A2"
+						  },
+						  {
+							"label": "C1 [en SIRhUS: C, XC]",
+							"value": "C1"
+						  },
+						  {
+							"label": "C2 [en SIRhUS: D; XD]",
+							"value": "C2"
+						  },
+						  {
+							"label": "E [en SIRhUS: E]",
+							"value": "E"
+						  },
+						  {
+							"label": "1 [en SIRhUS: 001]",
+							"value": "1"
+						  },
+						  {
+							"label": "2 [en SIRhUS: 002]",
+							"value": "2"
+						  },
+						  {
+							"label": "3 [en SIRhUS: 003]",
+							"value": "3"
+						  },
+						  {
+							"label": "4 [en SIRhUS: 004]",
+							"value": "4"
+						  },
+						  {
+							"label": "5 [en SIRhUS: 005]",
+							"value": "5"
+						  }
+						]
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Cuerpo:",
+					  "layout": "default",
+					  "element": {
+						"tag": "input",
+						"type": "text",
+						"id": "cuerpo"
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "C&oacute;digo puesto:",
+					  "layout": "default",
+					  "element": {
+						"tag": "input",
+						"type": "number",
+						"id": "puestoTrabajoCodigo"
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Denominaci&oacute;n puesto:",
+					  "layout": "default",
+					  "element": {
+						"tag": "input",
+						"type": "text",
+						"id": "puesto"
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Nivel:",
+					  "layout": "default",
+					  "element": {
+						"tag": "input",
+						"type": "text",
+						"id": "nivel"
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Fecha toma posesi&oacute;n",
+					  "layout": "default",
+					  "element": {
+						"tag": "input",
+						"type": "date",
+						"id": "fechaTomaPosesion"
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Consejer&iacute;a/OA/Otros:",
+					  "layout": "default",
+					  "element": {
+						"tag": "select",
+						"id": "conserjeriaOAOtros",
+						"dynamic": {
+						  "url": "http://10.239.0.161:8090/galatea/homologada-ws/oficinavirtual/organismos",
+						  "default": true,
+						  "key": "codigo",
+						  "value": "descripcion",
+						  "script": "def get = new URL(url).openConnection();def status = get.getResponseCode();if (status.equals(200)) {response = '{\"status\":'+status+',\"result\":'+get.getInputStream().getText()+'}'}\n else {response = '{\"status\":'+status+'}'}\n"
+						}
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Centro de trabajo/&Oacute;rgano:",
+					  "layout": "default",
+					  "element": {
+						"tag": "input",
+						"type": "text",
+						"id": "centroTrabajo"
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "2",
+					  "size-md": "2",
+					  "size-lg": "2",
+					  "label": "Provincia:",
+					  "layout": "default",
+					  "element": {
+						"tag": "select",
+						"id": "codProvincia",
+						"dynamic": {
+						  "url": "http://10.239.0.161:8090/galatea/homologada-ws/oficinavirtual/provincias",
+						  "default": true,
+						  "key": "codigo",
+						  "value": "descripcion",
+						  "script": "def get = new URL(url).openConnection();def status = get.getResponseCode();if (status.equals(200)) {response = '{\"status\":'+status+',\"result\":'+get.getInputStream().getText()+'}'}\n else {response = '{\"status\":'+status+'}'}\n"
+						}
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "C&oacute;digo Postal:",
+					  "layout": "default",
+					  "element": {
+						"tag": "input",
+						"type": "text",
+						"id": "codPostalAdministracion"
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Antig&uuml;edad admin.:",
+					  "layout": "default",
+					  "element": {
+						"tag": "input",
+						"type": "number",
+						"id": "antiguedad"
+					  }
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "12",
+					  "size-md": "12",
+					  "size-lg": "12",
+					  "label": "Cuerpo de Justicia:",
+					  "layout": "default",
+					  "element": {
+						"tag": "radio",
+						"type": "vertical",
+						"id": "cuerpoJusticia",
+						"values": [
+						  {
+							"value": "1",
+							"label": "Si"
+						  },
+						  {
+							"value": "0",
+							"label": "No"
+						  }
+						]
+					  }
+					}
+				  ]
+				}
+			  ]
+			}
+		  ]
+		]
+	  },
+	  {
+		"label": "Declaraci&oacute;n, solicitud, lugar, fecha y firmante",
+		"sections": [
+		  [
+			{
+			  "title": "4 DECLARA, SOLICITUD, LUGAR, FECHA Y FIRMA",
+			  "scope": "general",
+			  "rows": [
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "3",
+					  "size-md": "3",
+					  "size-lg": "3"
+					},
+					{
+					  "size-xs": "12",
+					  "size-sm": "4",
+					  "size-md": "4",
+					  "size-lg": "4",
+					  "label": "EN",
+					  "layout": "default",
+					  "element": {
+						"tag": "input",
+						"type": "text",
+						"id": "lugarAltaSolicitud"
+					  }
+					},
+					{
+					  "size-xs": "12",
+					  "size-sm": "1",
+					  "size-md": "1",
+					  "size-lg": "1",
+					  "label": "a",
+					  "layout": "default",
+					  "element": {
+						"tag": "input",
+						"type": "number",
+						"id": "diaAltaSolicitud"
+					  }
+					},
+					{
+					  "size-xs": "12",
+					  "size-sm": "1",
+					  "size-md": "1",
+					  "size-lg": "1",
+					  "label": "de (mes)",
+					  "layout": "default",
+					  "element": {
+						"tag": "input",
+						"type": "number",
+						"id": "mesAltaSolicitud"
+					  }
+					},
+					{
+					  "size-xs": "12",
+					  "size-sm": "1",
+					  "size-md": "1",
+					  "size-lg": "1",
+					  "label": "de (a&ntilde;o)",
+					  "layout": "default",
+					  "element": {
+						"tag": "input",
+						"type": "number",
+						"id": "yearAltaSolicitud"
+					  }
+					},
+					{
+					  "size-xs": "12",
+					  "size-sm": "3",
+					  "size-md": "3",
+					  "size-lg": "3"
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "4",
+					  "size-md": "4",
+					  "size-lg": "4"
+					},
+					{
+					  "size-xs": "12",
+					  "size-sm": "4",
+					  "size-md": "4",
+					  "size-lg": "4",
+					  "label": "EL/LA:",
+					  "layout": "default",
+					  "element": {
+						"tag": "input",
+						"type": "text",
+						"id": "nombreCompletoSolicitante"
+					  }
+					},
+					{
+					  "size-xs": "12",
+					  "size-sm": "4",
+					  "size-md": "4",
+					  "size-lg": "4"
+					}
+				  ]
+				},
+				{
+				  "columns": [
+					{
+					  "size-xs": "12",
+					  "size-sm": "4",
+					  "size-md": "4",
+					  "size-lg": "4"
+					},
+					{
+					  "size-xs": "12",
+					  "size-sm": "4",
+					  "size-md": "4",
+					  "size-lg": "4",
+					  "label": "Fdo.:",
+					  "layout": "default",
+					  "element": {
+						"tag": "input",
+						"type": "text",
+						"id": "firmanteSolicitud"
+					  }
+					},
+					{
+					  "size-xs": "12",
+					  "size-sm": "4",
+					  "size-md": "4",
+					  "size-lg": "4"
+					}
+				  ]
+				}
+			  ]
+			}
+		  ]
+		]
+	  }
+	]
+  }
+}
